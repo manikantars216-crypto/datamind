@@ -17,7 +17,7 @@ const categoriesFile = fs.readFileSync(
   "utf8"
 );
 
-const SITE_URL = "https://example.com";
+const SITE_URL = "https://datamind-steel.vercel.app/";
 
 function extractSlugs(fileContent) {
   const regex = /slug:\s*["']([^"']+)["']/g;
