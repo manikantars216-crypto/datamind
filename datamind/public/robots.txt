@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://datamind-steel.vercel.app/sitemap.xml
