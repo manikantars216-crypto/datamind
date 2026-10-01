@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "DataMind",
   shortName: "DataMind",
 
-  url: "https://example.com",
+  url: "https://datamind-steel.vercel.app",
 
   description:
     "Practical insights on Data Science, Machine Learning, Generative AI, Agentic AI, RAG, and Data Analytics.",
