@@ -1,4 +1,5 @@
 import hybridRagImage from "../assets/hybridrag.jpg";
+import agneticAI  from "../assets/ai-agent-data_science.jpg";
 export const blogs = [
   {
     slug: "what-is-hybrid-rag",
@@ -87,7 +88,7 @@ export const blogs = [
     datePublished: "2026-09-29",
     dateModified: "2026-09-29",
     readTime: "7 min read",
-    image: "/images/agentic-ai-data-science.jpg",
+    image: agneticAI,
     keywords: [
       "Agentic AI",
       "Agentic AI in Data Science",
