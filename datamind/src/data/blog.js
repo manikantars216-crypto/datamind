@@ -63,7 +63,9 @@ export const blogs = [
       <h2>Conclusion</h2>
 
       <p>
-        Hybrid RAG provides a flexible approach to AI search by combining
+        Hybrid RAG provides a flexible approach to <a href="/blog/article/agentic-ai-in-data-science/">
+      Agentic AI systems for data science
+    </a> AI search by combining
         complementary retrieval strategies. It is particularly useful when
         applications need both precise matching and semantic understanding.
       </p>
