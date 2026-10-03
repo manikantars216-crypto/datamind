@@ -1,3 +1,4 @@
+import hybridrag from "../assets/hybridrag.jpg";
 export const blogs = [
   {
     slug: "what-is-hybrid-rag",
