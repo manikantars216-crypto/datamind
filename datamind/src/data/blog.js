@@ -13,7 +13,7 @@ export const blogs = [
     datePublished: "2026-10-01",
     dateModified: "2026-10-01",
     readTime: "8 min read",
-    image: "/images/hybrid-rag.jpg",
+    image: "/assets/hybridrag.jpg",
     keywords: [
       "Hybrid RAG",
       "RAG",
