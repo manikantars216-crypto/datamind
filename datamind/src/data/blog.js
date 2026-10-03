@@ -1,4 +1,4 @@
-import hybridrag from "../assets/hybridrag.jpg";
+import hybridRagImage from "../assets/hybridrag.jpg";
 export const blogs = [
   {
     slug: "what-is-hybrid-rag",
@@ -14,7 +14,7 @@ export const blogs = [
     datePublished: "2026-10-01",
     dateModified: "2026-10-01",
     readTime: "8 min read",
-    image: "/assets/hybridrag.jpg",
+    image:hybridRagImage,
     keywords: [
       "Hybrid RAG",
       "RAG",
