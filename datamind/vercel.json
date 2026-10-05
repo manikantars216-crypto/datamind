@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!blog/article/|blog/topic/|blog/|about/|contact/).*)",
       "destination": "/index.html"
     }
   ]
