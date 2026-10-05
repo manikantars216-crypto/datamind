@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "generate:sitemap": "node scripts/generate-sitemap.mjs",
-    "build": "npm run generate:sitemap && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "generate:sitemap": "node scripts/generate-sitemap.mjs",
+  "build": "npm run generate:sitemap && vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && npm run prerender",
+  "prerender": "node scripts/prerender.mjs",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
