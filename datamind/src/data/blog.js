@@ -1,5 +1,6 @@
 import hybridRagImage from "../assets/hybridrag.jpg";
 import agneticAI  from "../assets/ai-agent-data_science.jpg";
+import dataquality from "../assets/whydataqualitymatterinagenticai.jpg";
 export const blogs = [
   {
     slug: "what-is-hybrid-rag",
@@ -202,7 +203,7 @@ export const blogs = [
     datePublished: "2026-09-25",
     dateModified: "2026-09-25",
     readTime: "6 min read",
-    image: "/images/exploratory-data-analysis.jpg",
+    image:dataquality,
     keywords: [
       "agentic AI",
       "data quality",
