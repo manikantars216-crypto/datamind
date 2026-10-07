@@ -691,7 +691,7 @@ export const blogs = [
   </p>
 
   <p>
-    A <strong>data science course</strong> can help build practical skills around data analysis, interpretation, and problem-solving—skills that remain important even as more tasks become automated.
+    A <strong> <a href='https://www.innomatics.in/'>data science course</a></strong> can help build practical skills around data analysis, interpretation, and problem-solving—skills that remain important even as more tasks become automated.
   </p>
 
   <p>
