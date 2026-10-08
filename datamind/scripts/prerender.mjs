@@ -9,15 +9,33 @@ const __dirname = path.dirname(__filename);
 const root = path.resolve(__dirname, "..");
 const dist = path.join(root, "dist");
 
+// Read blog data
+const blogFile = fs.readFileSync(
+  path.join(root, "src/data/blog.js"),
+  "utf8"
+);
+
+// Extract article slugs automatically
+const articleSlugs = [
+  ...blogFile.matchAll(
+    /\{\s*slug:\s*["']([^"']+)["']/g
+  ),
+].map((match) => match[1]);
+
+// Static pages
 const routes = [
   "/",
   "/blog/",
   "/about/",
   "/contact/",
-  "/blog/article/what-is-hybrid-rag/",
-  "/blog/article/agentic-ai-in-data-science/",
-  "/blog/article/exploratory-data-analysis/",
 ];
+
+// Automatically add every article
+for (const slug of articleSlugs) {
+  routes.push(`/blog/article/${slug}/`);
+}
+
+console.log(`Found ${articleSlugs.length} articles to prerender.`);
 
 const template = fs.readFileSync(
   path.join(dist, "index.html"),
