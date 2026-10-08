@@ -707,7 +707,7 @@ export const blogs = [
   <h2>Building Trust Is Key to the Future of Agentic AI</h2>
 
   <p>
-    Agentic AI is moving beyond systems that simply generate answers.
+    <a href="https://datamind-steel.vercel.app/blog/article/agentic-ai-in-data-science/">Agentic AI </a> is moving beyond systems that simply generate answers.
   </p>
 
   <p>
